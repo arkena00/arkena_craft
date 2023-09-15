@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class AnekraArmorMaterial implements ArmorMaterial {
+public class testing implements ArmorMaterial {
     private static final int[] BASE_DURABILITY = new int[] {99};
     private static final int[] PROTECTION_VALUES = new int[] {99};
 
@@ -37,7 +37,7 @@ public class AnekraArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "arkena_armor";
+        return "spider";
     }
 
     @Override
